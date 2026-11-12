@@ -1,0 +1,18 @@
+[package]
+name = "ct-curve-point"
+version = "0.0.1"
+edition = "2024"
+description = "Elliptic-curve point abstraction traits for constant-time cryptography"
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/YOURNAME/ct-curve-point"
+readme = "README.md"
+
+[dependencies]
+ct-scalar = { version = "0.1.0", default-features = false }
+ct-uint = { version = "0.0.2", default-features = false }
+subtle = { version = "2.6.1", default-features = false }
+
+[dev-dependencies]
+ct-fp = { version = "0.0.1", default-features = false }
+
+
